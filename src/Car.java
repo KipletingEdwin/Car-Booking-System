@@ -6,6 +6,9 @@ public class Car {
     private  int noOfAvailableCars;
 
 
+    public Car(){
+
+    }
 
 
 
