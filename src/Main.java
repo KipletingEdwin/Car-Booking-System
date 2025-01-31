@@ -9,8 +9,14 @@ public class Main {
         toyotaCar.setModel("Camry");
         toyotaCar.setPricePerDay(3000);
 
+        Car hondaCar = new Car();
+        hondaCar.setCarId("Car-2");
+        hondaCar.setBrand("Tata");
+        hondaCar.setModel("Camry");
+        hondaCar.setPricePerDay(3000);
 
-        System.out.println(toyotaCar.getModel());
+
+
 
     }
 }
