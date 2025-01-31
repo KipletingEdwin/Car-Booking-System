@@ -3,7 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        Car car = new Car();
+        Car toyotaCar = new Car();
+        toyotaCar.setCarId("Car-1");
+        toyotaCar.setBrand("Toyota");
+        toyotaCar.setModel("Camry");
+        toyotaCar.setPricePerDay(3000);
+
+
+        System.out.println(toyotaCar.getModel());
 
     }
 }
