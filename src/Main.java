@@ -21,6 +21,8 @@ public class Main {
         nissanCar.setModel("Xtrail");
         nissanCar.setPricePerDay(2800);
 
+        CarRentalService carRentalService = new CarRentalService();
+
 
 
 
