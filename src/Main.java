@@ -13,7 +13,13 @@ public class Main {
         hondaCar.setCarId("Car-2");
         hondaCar.setBrand("Tata");
         hondaCar.setModel("Camry");
-        hondaCar.setPricePerDay(3000);
+        hondaCar.setPricePerDay(2500);
+
+        Car nissanCar = new Car();
+        nissanCar.setCarId("Car-3");
+        nissanCar.setBrand("Nissan");
+        nissanCar.setModel("Xtrail");
+        nissanCar.setPricePerDay(2800);
 
 
 
