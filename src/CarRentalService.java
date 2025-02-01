@@ -28,6 +28,12 @@ public class CarRentalService {
             int choice = sc.nextInt();
             sc.nextLine();
 
+            if(choice == 1){
+                System.out.println("For Renting a car, please provide details below ==");
+
+                String custName = sc.nextLine();
+            }
+
         }
     }
 }
