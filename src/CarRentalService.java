@@ -37,6 +37,7 @@ public class CarRentalService {
                 String carId = sc.nextLine();
 
                 System.out.println("Enter the number of days for rental: ");
+                int days = sc.nextInt();
             }
 
         }
