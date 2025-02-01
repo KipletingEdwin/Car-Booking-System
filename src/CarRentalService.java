@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CarRentalService {
     private List<Car> cars;
+    private  List<Customer> customers;
 
     public CarRentalService() {
         cars = new ArrayList<>();
