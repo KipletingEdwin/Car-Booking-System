@@ -8,6 +8,7 @@ public class CarRentalService {
 
     public CarRentalService() {
         cars = new ArrayList<>();
+        customers = new ArrayList<>();
     }
 
     public void addCar(Car car) {
