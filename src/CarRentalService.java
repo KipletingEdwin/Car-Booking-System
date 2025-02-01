@@ -35,6 +35,8 @@ public class CarRentalService {
 
                 System.out.println("Enter the car ID you want to rent: ");
                 String carId = sc.nextLine();
+
+                System.out.println("Enter the number of days for rental: ");
             }
 
         }
