@@ -22,6 +22,9 @@ public class Main {
         nissanCar.setPricePerDay(2800);
 
         CarRentalService carRentalService = new CarRentalService();
+        carRentalService.addCar(toyotaCar);
+        carRentalService.addCar(hondaCar);
+        carRentalService.addCar(nissanCar);
 
 
 
