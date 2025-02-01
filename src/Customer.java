@@ -11,6 +11,14 @@ public class Customer {
         return name;
     }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public  Customer(String id, String name) {
         this.id = id;
         this.name = name;
