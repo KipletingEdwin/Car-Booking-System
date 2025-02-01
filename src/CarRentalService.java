@@ -26,6 +26,7 @@ public class CarRentalService {
             System.out.println(" Enter your choice: ");
 
             int choice = sc.nextInt();
+            sc.nextLine();
 
         }
     }
