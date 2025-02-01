@@ -32,6 +32,7 @@ public class CarRentalService {
                 System.out.println("For Renting a car, please provide details below ==");
 
                 String custName = sc.nextLine();
+                System.out.println("Enter the car ID you want to rent: ");
             }
 
         }
