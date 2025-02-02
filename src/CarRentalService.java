@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class CarRentalService {
@@ -47,6 +48,10 @@ public class CarRentalService {
 
                 Customer customer = new Customer("CUSTOMER-" + (customers.size() + 1), custName);
                 addCustomer(customer);
+
+                cars.stream()
+                        .filter(c -> c.getCarId().equalsIgnoreCase(carId) && c.getNoOfAvailableCars() > 0)
+                        .findAny();
             }
 
         }
