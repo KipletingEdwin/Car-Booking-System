@@ -48,6 +48,7 @@ public class Car {
     }
 
     public  double calculatePrice(int days){
+        return  pricePerDay * days;
 
     }
 
