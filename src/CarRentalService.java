@@ -40,6 +40,8 @@ public class CarRentalService {
 
                 System.out.println("Enter the number of days for rental: ");
                 int days = sc.nextInt();
+
+                Customer customer = new Customer("CUSTOMER-" + (customers.size() + 1), custName);
             }
 
         }
