@@ -49,7 +49,7 @@ public class CarRentalService {
                 Customer customer = new Customer("CUSTOMER-" + (customers.size() + 1), custName);
                 addCustomer(customer);
 
-                cars.stream()
+                Optional<Car>  optionalCar =  cars.stream()
                         .filter(c -> c.getCarId().equalsIgnoreCase(carId) && c.getNoOfAvailableCars() > 0)
                         .findAny();
             }
