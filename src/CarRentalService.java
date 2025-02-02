@@ -46,6 +46,7 @@ public class CarRentalService {
                 int days = sc.nextInt();
 
                 Customer customer = new Customer("CUSTOMER-" + (customers.size() + 1), custName);
+                addCustomer(customer);
             }
 
         }
