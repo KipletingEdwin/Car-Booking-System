@@ -62,6 +62,7 @@ public class CarRentalService {
 
                 System.out.println("=== Bill Receipt===");
                 System.out.println("Customer ID: " + customer.getId());
+                System.out.println("Customer Name: "  + customer.getName());
             }
         }
     }
