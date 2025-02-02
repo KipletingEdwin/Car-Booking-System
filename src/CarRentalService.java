@@ -52,8 +52,14 @@ public class CarRentalService {
                 Optional<Car>  optionalCar =  cars.stream()
                         .filter(c -> c.getCarId().equalsIgnoreCase(carId) && c.getNoOfAvailableCars() > 0)
                         .findAny();
-            }
 
+                if(optionalCar.isEmpty()){
+                    System.out.println("Car is not available");
+                    options();
+                    return;
+
+                }
+            }
         }
     }
 }
