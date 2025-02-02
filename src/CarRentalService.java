@@ -59,6 +59,8 @@ public class CarRentalService {
                     return;
                 }
                 Car selectedCar = optionalCar.get();
+
+                System.out.println("=== Bill Receipt===");
             }
         }
     }
