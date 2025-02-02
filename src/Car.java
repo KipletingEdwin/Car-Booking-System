@@ -47,6 +47,10 @@ public class Car {
         this.noOfAvailableCars = noOfAvailableCars;
     }
 
+    public  double calculatePrice(int days){
+
+    }
+
     public Car(){
 
 
