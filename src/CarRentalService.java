@@ -54,11 +54,11 @@ public class CarRentalService {
                         .findAny();
 
                 if(optionalCar.isEmpty()){
-                    System.out.println("Car is not available");
+                    System.out.println("Car is not available. Please try to book another car");
                     options();
                     return;
-
                 }
+                Car selectedCar = optionalCar.get();
             }
         }
     }
