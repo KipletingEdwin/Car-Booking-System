@@ -15,6 +15,10 @@ public class CarRentalService {
         cars.add(car);
     }
 
+    public  void  addCustomer(Customer cust){
+        customers.add(cust);
+    }
+
     public  void  options(){
         Scanner sc = new Scanner(System.in);
 
