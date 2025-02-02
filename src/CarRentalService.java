@@ -61,6 +61,7 @@ public class CarRentalService {
                 Car selectedCar = optionalCar.get();
 
                 System.out.println("=== Bill Receipt===");
+                System.out.println("Customer ID: " + customer.getId());
             }
         }
     }
