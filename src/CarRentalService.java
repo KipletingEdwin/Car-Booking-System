@@ -68,6 +68,7 @@ public class CarRentalService {
                 System.out.println("Total Price: " + selectedCar.calculatePrice(days));
 
                 System.out.println("Confirm rental  (Y/N) ");
+                String confirmation = sc.next();
             }
         }
     }
