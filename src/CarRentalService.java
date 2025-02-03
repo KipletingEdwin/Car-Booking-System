@@ -73,6 +73,8 @@ public class CarRentalService {
                 if(confirmation.equalsIgnoreCase("Y")){
                     // Book a car
 
+                } else {
+                    System.out.println("Car booking is cancelled");
                 }
             }
         }
