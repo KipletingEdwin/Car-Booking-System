@@ -12,10 +12,15 @@ public class CarRentalService {
         cars = new ArrayList<>();
         customers = new ArrayList<>();
         bookedCarInformations = new ArrayList<>();
-
     }
 
-    public  void  bookedCar(){
+    public  void  bookedCar(Car car, Customer customer, int days){
+        if(car.getNoOfAvailableCars()  > 0){
+            car.setNoOfAvailableCars(car.getNoOfAvailableCars() - 1);
+            bookedCarInformations.add(new BookedCarInformation(car, customer, days));
+        } else {
+            System.out.println("Car is not available for rent. ");
+        }
 
     }
 
@@ -79,6 +84,7 @@ public class CarRentalService {
 
                 if(confirmation.equalsIgnoreCase("Y")){
                     // Book a car
+                    bookedCar(selectedCar, customer, days);
                     System.out.println("Car booking is done successfully");
 
                 } else {
