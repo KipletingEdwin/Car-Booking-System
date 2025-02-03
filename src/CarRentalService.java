@@ -6,10 +6,12 @@ import java.util.Scanner;
 public class CarRentalService {
     private List<Car> cars;
     private  List<Customer> customers;
+    private  List<BookedCarInformation> bookedCarInformations;
 
     public CarRentalService() {
         cars = new ArrayList<>();
         customers = new ArrayList<>();
+
     }
 
     public  void  bookedCar(){
