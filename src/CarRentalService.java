@@ -69,6 +69,11 @@ public class CarRentalService {
 
                 System.out.println("Confirm rental  (Y/N) ");
                 String confirmation = sc.next();
+
+                if(confirmation.equalsIgnoreCase("Y")){
+                    // Book a car
+
+                }
             }
         }
     }
