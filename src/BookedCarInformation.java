@@ -5,4 +5,9 @@ public class BookedCarInformation {
     private  int days;
 
 
+    public  BookedCarInformation(Car car, Customer customer, int days){
+
+    }
+
+
 }
