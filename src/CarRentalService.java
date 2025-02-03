@@ -72,6 +72,7 @@ public class CarRentalService {
 
                 if(confirmation.equalsIgnoreCase("Y")){
                     // Book a car
+                    System.out.println("Car booking is done successfully");
 
                 } else {
                     System.out.println("Car booking is cancelled");
