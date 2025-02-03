@@ -66,6 +66,8 @@ public class CarRentalService {
                 System.out.println("Car Brand: " + selectedCar.getBrand() + "Model: " +selectedCar.getModel());
                 System.out.println("Rental Days: " + days);
                 System.out.println("Total Price: " + selectedCar.calculatePrice(days));
+
+                System.out.println("Confirm rental  (Y/N) ");
             }
         }
     }
