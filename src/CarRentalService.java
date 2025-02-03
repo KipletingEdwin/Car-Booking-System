@@ -11,6 +11,7 @@ public class CarRentalService {
     public CarRentalService() {
         cars = new ArrayList<>();
         customers = new ArrayList<>();
+        bookedCarInformations = new ArrayList<>();
 
     }
 
