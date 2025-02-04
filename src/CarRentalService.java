@@ -102,8 +102,7 @@ public class CarRentalService {
                         if(optionalCar.isEmpty()){
                     System.out.println("Please provide a valid car details");
                     options();
-
-
+                    return;
                         }
 
 
