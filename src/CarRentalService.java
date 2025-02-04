@@ -96,6 +96,8 @@ public class CarRentalService {
                 String carId = sc.nextLine();
 
                 cars.stream()
+                        .filter(c -> c.getCarId().equals(carId))
+
 
 
             }
