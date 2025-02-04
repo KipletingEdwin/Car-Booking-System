@@ -90,6 +90,9 @@ public class CarRentalService {
                 } else {
                     System.out.println("Car booking is cancelled");
                 }
+            } else if(choice ==  2){
+                System.out.println("== Return a Car==");
+
             }
         }
     }
