@@ -105,6 +105,8 @@ public class CarRentalService {
                     return;
                         }
 
+                        Car carToReturn = optionalCar.get();
+
 
 
             }
