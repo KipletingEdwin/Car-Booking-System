@@ -99,6 +99,11 @@ public class CarRentalService {
                         .filter(c -> c.getCarId().equals(carId))
                         .findAny();
 
+                        if(optionalCar.isEmpty(){
+
+
+                        }
+
 
 
             }
