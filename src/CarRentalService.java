@@ -95,6 +95,9 @@ public class CarRentalService {
                 System.out.println("Enter the car ID you want to return");
                 String carId = sc.nextLine();
 
+                cars.stream()
+
+
             }
         }
     }
