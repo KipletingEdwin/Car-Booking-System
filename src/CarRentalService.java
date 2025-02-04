@@ -106,6 +106,8 @@ public class CarRentalService {
                         }
 
                         Car carToReturn = optionalCar.get();
+                        bookedCarInformations.stream()
+
 
 
 
